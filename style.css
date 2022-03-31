@@ -83,6 +83,10 @@ body {
   font-family: sans-serif;
   margin-left: 6rem;
   text-decoration: solid #4739d1;
+  text-decoration: underline;
+}
+.change:hover {
+  text-decoration: none;
 }
 .payment {
   display: flex;
@@ -97,7 +101,10 @@ body {
   font-weight: 600;
   font-size: 1.15rem;
   margin: 0 0 5% 0;
+}
+.payment:hover {
   box-shadow: rgba(56, 42, 225, 0.8) 0px 20px 30px -10px;
+  cursor: pointer;
 }
 .payment a {
   color: white;
@@ -117,68 +124,7 @@ a.cancel {
 a {
   text-decoration: none;
 }
-@media screen and (max-width: 1300px) {
-  body {
-    background-image: url(https://raw.githubusercontent.com/Katja721/Order-summary-component/f6cd23f76c68ce71eecf83418e635aca61e77fb5/images/pattern-background-mobile.svg);
-  }
-  .main {
-    width: 30%;
-    margin: 2% 35%;
-  }
-  .change {
-    margin-left: 33%;
-    font-size: 1em;
-  }
-  .payment {
-    width: 85%;
-    height: 4.8rem;
-    font-size: 1.5em;
-  }
-  .description {
-    line-height: 145%;
-    font-size: 1.3em;
-  }
-  .border {
-    font-size: 1.9em;
-  }
-  .price-center {
-    font-size: 1em;
-  }
-  .cancel {
-    font-size: 1.2em;
-  }
-}
-@media screen and (max-width: 1100px) {
-  body {
-    background-image: url(https://raw.githubusercontent.com/Katja721/Order-summary-component/f6cd23f76c68ce71eecf83418e635aca61e77fb5/images/pattern-background-mobile.svg);
-  }
-  .main {
-    width: 75%;
-    margin: 10% 15%;
-  }
-  .change {
-    margin-left: 33%;
-    font-size: 2em;
-  }
-  .payment {
-    width: 85%;
-    height: 4.8rem;
-    font-size: 1.9em;
-  }
-  .description {
-    line-height: 145%;
-    font-size: 2em;
-  }
-  .border {
-    font-size: 3em;
-  }
-  .price-center {
-    font-size: 1.7em;
-  }
-  .cancel {
-    font-size: 1.2em;
-  }
-}
+
 @media screen and (max-width: 800px) {
   body {
     background-image: url(https://raw.githubusercontent.com/Katja721/Order-summary-component/f6cd23f76c68ce71eecf83418e635aca61e77fb5/images/pattern-background-mobile.svg);
